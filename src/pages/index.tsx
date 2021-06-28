@@ -1,7 +1,6 @@
 import Layout from "../components/Layout";
 import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
-import Image from "next/image";
 import { SocialList } from "../components/SocialList";
 
 export default function Index() {
@@ -12,13 +11,11 @@ export default function Index() {
       <div className="container">
         <div>
           <div className="headerContent">
-            <Image
+            <img
               src="/images/avatar.png"
               alt="Denys Bolkisev"
               height={100}
               width={100}
-              quality={100}
-              priority
               className="avatarImage"
             />
             <h1>
