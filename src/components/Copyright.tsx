@@ -1,7 +1,9 @@
 export default function Copyright() {
+  const year = new Date().getFullYear();
+
   return (
     <>
-      <p>&copy; 2020</p>
+      <p>&copy; {year} Denys Bolkisev </p>
       <style jsx>
         {`
           p {

@@ -1,19 +1,22 @@
 {
-  "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
+  "base_url": "https://denysbolkisev.netlify.app",
+  "site_title": "Denys Bolkisev",
+  "site_description": "Denys's Bolkisev blog",
   "site_keywords": [
     {
-      "keyword": "Next.js"
+      "keyword": "Denys"
     },
     {
-      "keyword": "Netlify"
+      "keyword": "Bolkisev"
     },
     {
       "keyword": "React"
+    },
+    {
+      "keyword": "PHP"
     }
   ],
   "posts_per_page": 5,
-  "twitter_account": "@my-account",
-  "github_account": "wutali"
+  "linkedin_account": "denys-bolkisev-010018135",
+  "github_account": "magahon"
 }
